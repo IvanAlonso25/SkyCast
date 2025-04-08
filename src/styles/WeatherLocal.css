@@ -1,0 +1,103 @@
+.weather-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.search-location {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid rgb(172, 187, 200);
+}
+
+.search-location input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.search-location button {
+    border: none;
+    padding: 5px;
+}
+
+.search-location button:hover {
+    cursor: pointer;
+}
+
+.search-location button img {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.weather-location {
+    display: none;
+    flex-direction: column;
+}
+
+.weather-location img {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.weather-location input {
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.weather-weekly {
+    margin-top: 40px;
+    width: 100%;
+    padding: 0px;
+    height: auto;
+}
+
+.weather-daily {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.weather-day {
+    border: 1px solid rgb(172, 187, 200);
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.forecast {
+    width: 80%;
+    margin-top: 30px;
+    text-align: left;
+}
