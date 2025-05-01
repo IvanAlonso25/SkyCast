@@ -97,6 +97,7 @@
 }
 
 .forecast {
+    display: none;
     width: 80%;
     margin-top: 30px;
     text-align: left;

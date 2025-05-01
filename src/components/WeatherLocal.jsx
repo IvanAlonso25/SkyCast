@@ -9,6 +9,7 @@ export const WeatherLocal = () => {
         const location = document.getElementById('input_location').value;
         document.getElementById('weather-location').style.display = 'flex';
         document.getElementById('weather-weekly').style.display = 'flex';
+        document.getElementById('forecast').style.display = 'flex';
         if (location === '') {
             alert('Please enter a location');
             return;
@@ -55,7 +56,7 @@ export const WeatherLocal = () => {
                 <input type="text" id='humidity' size='50' disabled />
             </div>
 
-            <div className="forecast">
+            <div className="forecast" id='forecast'>
                 <h3>Forecast (3 days)</h3>
             </div>
             
